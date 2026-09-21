@@ -1,0 +1,3 @@
+# ga_mutation_agent — Prompt (genérico)
+
+Aplica mutación sobre la descendencia del cruce (ya ordenada mejor→peor): selecciona los N_MUTAR individuos de peor aptitud (FRACCION_MUT = 10% del lote, por generación) y les aplica 1 sola operación del operador único del lote (swap o inversión), preservando la validez de la permutación. Reordena antes y después de mutar; tras la mutación → elitismo → evaluar; confirma.

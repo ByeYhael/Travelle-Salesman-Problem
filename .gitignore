@@ -1,0 +1,23 @@
+# Resultados y artefactos generados
+outputs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Entorno y dependencias
+node_modules/
+.env
+.venv/
+venv/
+
+# Editor / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Config de opencode (si se versiona el ecosistema)
+.opencode/node_modules/
+.opencode/package-lock.json
+.opencode/.gitignore
