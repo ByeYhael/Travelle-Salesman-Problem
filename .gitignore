@@ -1,5 +1,8 @@
 # Resultados y artefactos generados
 outputs/
+
+# Fuentes/imágenes originales (no se versionan)
+fuentes/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
